@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo 'What is your password?'
+
+read password
+
+if [ $password == yourpasswordhere ]
+then
+
+    echo 'Welcome to the terminal.'
+    exec bash
+
+else
+    echo 'Access denied.'
+fi
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo 'What is your name?'
+
+read who
+
+if [ $who == insertnamehere ]
+then
+    exec ./personal
+else
+    exec ./personal
+fi
