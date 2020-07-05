@@ -6,7 +6,7 @@ read who
 
 if [ $who == insertnamehere ]
 then
-    exec ./personal
+    exec ./password_script
 else
-    exec ./personal
+    exec ./password_script
 fi
